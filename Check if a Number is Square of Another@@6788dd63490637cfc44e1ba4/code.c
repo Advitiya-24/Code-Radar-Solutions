@@ -2,8 +2,8 @@
 int main(){
     int a,b;
     scanf("%d %d", &a,&b);
-    int b= b*b;
-    if(a==b){
+    int c= b*b;
+    if(a==c){
         printf("Yes");
     }
     else{
