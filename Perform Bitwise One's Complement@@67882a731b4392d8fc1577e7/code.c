@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int m,n;
-    scanf("%d %d", &m,&n);
-    m=~n
-    printf("%d", m);
+    unsigned char x=5;
+    unsigned char y;
+    y=~x;
+    printf("%d", y);
 }
