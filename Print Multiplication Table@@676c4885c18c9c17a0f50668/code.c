@@ -3,6 +3,5 @@ int main(){
     int a;
     scanf("%d", &a);
     for(int i=1;i<=10;i++);
-    int b=a*i;
-    printf("%d x %d=%d", a,i,b);
+    printf("%d x %d=%d", a,i,a*i);
 }
