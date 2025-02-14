@@ -1,24 +1,17 @@
-#include <stdio.h>
-#include <ctype.h> // Include for toupper/tolower
-
-int main() {
+#include<stdio.h>
+int main(){
     char a;
     scanf("%c", &a);
-
-    // Use toupper to simplify vowel check
-    a = toupper(a); // Convert to uppercase for easier comparison
-
-    if (isalpha(a)) { // Check if it's an alphabet
-        if (a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U') {
-            printf("Vowel");
-        } else {
-            printf("Consonant");
-        }
-    } else if (isdigit(a)) { // Check if it's a digit
-        printf("Digit");
-    } else {
-        printf("Special character");
+    if((a>='a' && a<='z' && (a=='a' || a=='e' || a=='i' || a=='o' || a=='u')) || (a>='A' && a<='Z' && (a=='A' || a=='E' || a=='I' || a=='O' || a=='U'))){
+        printf("Vowel");
     }
-
-    return 0;
+    else if((a>='a' && a<='z') || (a>='A' && a<='Z') ){
+        printf("Consonant");
+    }
+    else if(a>='0' && a<='9'){
+        printf("Digit");
+    }
+    else{
+        printf("Special Character");
+    }
 }
