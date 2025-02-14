@@ -1,6 +1,6 @@
 #inlcude<stdio.h>
 int main(){
-    float n;
-    scanf("%f",&n);
-    printf("You entered: %f", n);
+    double a;
+    scanf("%lf", &a);
+    printf("You entered: %.4lf", a)
 }
