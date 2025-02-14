@@ -2,5 +2,5 @@
 int main(){
     char n;
     scanf("%c", &n);
-    printf("ASCII Value: %c=%d", n);
+    printf("ASCII Value: %d", n);
 }
