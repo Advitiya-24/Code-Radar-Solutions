@@ -1,8 +1,6 @@
 void fibonacciSeries(int n) {
     int first = 0, second = 1, next, i;
 
-    printf("Fibonacci Series: ");
-
     if (n >= 1) {
         printf("%d ", first);
     }
