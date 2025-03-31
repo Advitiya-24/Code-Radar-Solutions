@@ -1,6 +1,6 @@
 #include<stdlib.h>
 int compare(const void *a,const void *b){
-    return(*(int *)a - *(int *)b);
+    return(*(char *)a - *(char *)b);
 }
 void bubbleSort(char arr[],int n){
     qsort(arr,n,sizeof(char),compare);
