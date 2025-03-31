@@ -12,6 +12,11 @@ int main() {
             }
         for (int j = 1; j <= i; j++) {
             printf("%d ",num);
+             if (num == 1) {
+                num = 0;
+            } else {
+                num = 1;
+            }
         }
         printf("\n");
     }
