@@ -3,8 +3,7 @@
 int main() {
     int n;
 
-    // Ask the user for input
-    printf("Enter the size of the square: ");
+
     scanf("%d", &n);
 
     // Loop for each row
