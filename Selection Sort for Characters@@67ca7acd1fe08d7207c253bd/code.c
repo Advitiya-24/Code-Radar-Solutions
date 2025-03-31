@@ -3,12 +3,12 @@ int compare(const void *a, const void *b) {
     return (*(char *)a - *(char *)b);
 }
 void selectionSort(char arr[], int n) {
-    qsort(arr, n, sizeof(int), compare);
+    qsort(arr, n, sizeof(char), compare);
 }
 
 void printArray(char arr[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%c ", arr[i]);
+        printf("%d ", arr[i]);
     }
     printf("\n");
 }
