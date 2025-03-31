@@ -7,5 +7,7 @@ void insertionSort(char arr[][100],int n){
     qsort(arr,n,sizeof(arr[0]),compare);
 }
 void printArray(char arr[][100],int n){
-    printf("%s /n",arr[i]);
+    for(int i=0;i<n;i++){
+        printf("%s /n",arr[i]);
+    }
 }
