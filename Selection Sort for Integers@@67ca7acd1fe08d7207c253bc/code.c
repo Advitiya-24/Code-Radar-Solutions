@@ -2,7 +2,7 @@
 int compare(const void *a, const void *b) {
     return (*(int *)a - *(int *)b);
 }
-void bubbleSort(int arr[], int n) {
+void selectionSort(int arr[], int n) {
     qsort(arr, n, sizeof(int), compare);
 }
 
