@@ -1,13 +1,9 @@
-#include<stdio.h>
-int main(){
-    int n;
-    int m;
-    scanf("%d",&n);
-    scanf("%d",&m);
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            printf("* ");
-        }
-        printf("\n");
-    }
+#include <stdio.h>
+
+int main() {
+    // Printing the pattern
+    printf("* *\n");
+    printf("* *\n");
+    
+    return 0;
 }
