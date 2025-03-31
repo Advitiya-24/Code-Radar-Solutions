@@ -1,6 +1,6 @@
 #include<stdlib.h>
 int compare(const void *a, const void *b) {
-    return strcmp((const char *)a, (const char *)b);
+    return((const char *)a, (const char *)b);
 }
 void selectionSort(char arr[][100], int n) {
     qsort(arr, n, sizeof(arr[0]), compare);
