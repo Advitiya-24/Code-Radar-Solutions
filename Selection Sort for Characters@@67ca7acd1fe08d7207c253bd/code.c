@@ -1,5 +1,5 @@
 #include <stdlib.h>
-char compare(const void *a, const void *b) {
+int compare(const void *a, const void *b) {
     return (*(char *)a - *(char *)b);
 }
 void selectionSort(char arr[], int n) {
